@@ -18,7 +18,5 @@ function dispatch(action) {
   render();
 }
 
-render();
-
 dispatch({ type: "INCREASE_COUNT" });
 dispatch({ type: "INCREASE_COUNT" });
